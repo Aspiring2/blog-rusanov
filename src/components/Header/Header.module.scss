@@ -1,0 +1,81 @@
+/* Header.module.scss */
+
+.root {
+  background-color: #fff;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 30px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  margin-right: 20px;
+
+  &:hover {
+    color: #4361ee;
+  }
+}
+
+.logo {
+  background-color: black;
+  color: #fff;
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 0.15px;
+  border-radius: 5px;
+  padding: 0 10px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #4361ee;
+  }
+}
+
+.buttons {
+  button {
+    margin-left: 10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.socialItems {
+  display: flex;
+  align-items: center;
+}
+a {
+  /* Updated styles for social links */
+  color: #000;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #4361ee;
+  }
+
+  svg {
+    /* Styles for the social media icons */
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+    margin-top: 5px;
+  }
+}
