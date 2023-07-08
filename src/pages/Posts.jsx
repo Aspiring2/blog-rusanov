@@ -58,7 +58,7 @@ export const Posts = () => {
               <Post
                 id={obj._id}
                 title={obj.title}
-                imageUrl={obj.imageUrl ? `https://rusanov-d/api${obj.imageUrl}` : ''}
+                imageUrl={obj.imageUrl ? `https://rusanov-d.ru/api${obj.imageUrl}` : ''}
                 user={obj.user}
                 createdAt={obj.createdAt}
                 viewsCount={obj.viewsCount}

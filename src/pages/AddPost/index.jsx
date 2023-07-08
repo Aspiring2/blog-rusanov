@@ -117,7 +117,7 @@ export const AddPost = () => {
           <Button variant="contained" color="error" onClick={onClickRemoveImage}>
             Удалить
           </Button>
-          <img className={styles.image} src={`https://rusanov-d/api${imageUrl}`} alt="Uploaded" />
+          <img className={styles.image} src={`https://rusanov-d.ru/api${imageUrl}`} alt="Uploaded" />
        </>
       )}
      

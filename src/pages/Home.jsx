@@ -91,17 +91,17 @@ export const Home = () => {
     {
       title: "Slide 1",
       imageUrl:
-        "https://rusanov-d/api/uploads/RobloxScreenShot20230605_131002741.png",
+        "https://rusanov-d.ru/api/uploads/RobloxScreenShot20230605_131002741.png",
     },
     {
       title: "Slide 2",
       imageUrl:
-        "https://rusanov-d/api/uploads/RobloxScreenShot20230605_131058204.png",
+        "https://rusanov-d.ru/api/uploads/RobloxScreenShot20230605_131058204.png",
     },
     {
       title: "Slide 3",
       imageUrl:
-        "https://rusanov-d/api/uploads/RobloxScreenShot20230605_131031179.png",
+        "https://rusanov-d.ru/api/uploads/RobloxScreenShot20230605_131031179.png",
     },
   ];
   const isPostsLoading = postsStatus === "loading";
@@ -152,7 +152,7 @@ export const Home = () => {
                   id={post._id}
                   title={post.title}
                   imageUrl={
-                    post.imageUrl ? `https://rusanov-d/api${post.imageUrl}` : ""
+                    post.imageUrl ? `https://rusanov-d.ru/api${post.imageUrl}` : ""
                   }
                   user={post.user}
                   createdAt={post.createdAt}
@@ -186,7 +186,7 @@ export const Home = () => {
                   id={service._id}
                   title={service.title}
                   imageUrl={
-                    service.imageUrl ? `https://rusanov-d/api${service.imageUrl}` : ""
+                    service.imageUrl ? `https://rusanov-d.ru/api${service.imageUrl}` : ""
                   }
                   user={service.user}
                   createdAt={service.createdAt}
