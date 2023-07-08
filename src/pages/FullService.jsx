@@ -45,7 +45,7 @@ export const FullService = () => {
       <Service
         id={serviceData._id}
         title={serviceData.title}
-        imageUrl={serviceData.imageUrl ? `http://localhost:4444${serviceData.imageUrl}` : ""}
+        imageUrl={serviceData.imageUrl ? `https://rusanov-d/api${serviceData.imageUrl}` : ""}
         user={serviceData.user}
         createdAt={formattedDate} // Use the formatted date
         viewsCount={serviceData.viewsCount}

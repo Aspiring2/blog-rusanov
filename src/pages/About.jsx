@@ -27,7 +27,7 @@ const About = () => {
 
   return (
     <div className={classes.aboutContainer}>
-      <Avatar className={classes.avatar} src="http://localhost:4444/uploads/IMG_20221204_140644.jpg" alt="Avatar" />
+      <Avatar className={classes.avatar} src="https://rusanov-d/api/uploads/IMG_20221204_140644.jpg" alt="Avatar" />
       <div className={classes.content}>
         <h2>About Me</h2>
         <ReactMarkdown></ReactMarkdown>

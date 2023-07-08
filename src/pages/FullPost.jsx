@@ -45,7 +45,7 @@ export const FullPost = () => {
       <Post
         id={postData._id}
         title={postData.title}
-        imageUrl={postData.imageUrl ? `http://localhost:4444${postData.imageUrl}` : ""}
+        imageUrl={postData.imageUrl ? `https://rusanov-d/api${postData.imageUrl}` : ""}
         user={postData.user}
         createdAt={formattedDate} // Use the formatted date
         viewsCount={postData.viewsCount}
