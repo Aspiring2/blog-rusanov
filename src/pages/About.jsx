@@ -30,7 +30,7 @@ const About = () => {
       <Avatar className={classes.avatar} src="https://rusanov-d.ru/api/uploads/IMG_20221204_140644.jpg" alt="Avatar" />
       <div className={classes.content}>
         <h2>About Me</h2>
-        <ReactMarkdown>
+        <div>
         <h2>Skills and Experience:</h2>
 <ul>
   <li>Strong skills and experience in JavaScript frontend and backend development 😊</li>
@@ -64,7 +64,7 @@ const About = () => {
   <li>Excellent communication and interpersonal skills, well-organized, goal-oriented ✉️🤝</li>
 </ul>
 
-        </ReactMarkdown>
+        </div>
       </div>
     </div>
   );
